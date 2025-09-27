@@ -1,6 +1,6 @@
 <div align="center">
  
-# Week 1 : Day 1
+# Week 1 : Day 3
 # Combinational and Sequential Optimization
 
 </div>
