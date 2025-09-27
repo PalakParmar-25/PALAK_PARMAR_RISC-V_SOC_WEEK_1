@@ -40,7 +40,7 @@ Sequential logic optimizations involve improving the design around flip-flops or
 - We optimzed sequential circuits like register , flip flop by simulating and synthesysing the RTL desing of the sequential circuits ,using appropriate commands in the terminal
 
 #### Simulated output :
-<img width="1300" height="736" alt="day3_show_const5_seq" src="https://github.com/user-attachments/assets/f27e2999-6dd1-4d0c-ad0f-9733068b5293" />
+<img width="1300" height="736" alt="day3_seq gtkwave_const1" src="https://github.com/user-attachments/assets/97f3b3fa-df58-4d03-b599-95e43b432bf5" />
 
 #### Synthesised output :
   <img width="1300" height="736" alt="day3_show_dff_const1_seq" src="https://github.com/user-attachments/assets/36b0bd25-aff2-4790-b10c-b1d3490703e9" />
@@ -49,19 +49,21 @@ Sequential logic optimizations involve improving the design around flip-flops or
 
 <img width="1300" height="736" alt="day3_show_dff-const2_seq" src="https://github.com/user-attachments/assets/eb4abfd1-4728-42a8-8362-869362064157" />
 
-<img width="1300" height="736" alt="day3_seq gtkwave_const1" src="https://github.com/user-attachments/assets/97f3b3fa-df58-4d03-b599-95e43b432bf5" />
+<img width="1300" height="736" alt="day3_show_const5_seq" src="https://github.com/user-attachments/assets/f27e2999-6dd1-4d0c-ad0f-9733068b5293" />
 
-4.Sequential optimizations for unused outputs
+
+### 4.Sequential optimizations for unused outputs:
+
 In cases where sequential logic drives outputs that are never used, synthesis tools can identify and eliminate this dead logic. Removing these unused output paths helps reduce register count, logic depth, and power consumption, while also improving synthesis and timing performance.
 
 optimzation of counter by simulating and synthesysing the RTL desing of the counter register ,using appropriate commands in the terminal.
 
 <img width="1300" height="736" alt="day3_show_counter_opt_seq" src="https://github.com/user-attachments/assets/693a2181-7542-4902-a002-050a6b579eda" />
  
-flattening of multiple_module_opt.v :
+#### flattening of multiple_module_opt.v :
 <img width="1300" height="736" alt="day3_fatten_multipule_module" src="https://github.com/user-attachments/assets/a96637ee-94ec-4a44-8b45-3e6b5c902545" />
 
-flattening of multiple_module_opt2.v :
+#### flattening of multiple_module_opt2.v :
 <img width="1300" height="736" alt="day3_multiple_module2_flatten" src="https://github.com/user-attachments/assets/bb9b4055-038a-4278-aae1-7a3614f67b8b" />
 
 
