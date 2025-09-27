@@ -1,7 +1,15 @@
-<div align="centre">
+<div align="center">
 
   # Week 1 : Day 2
 # Timing Libraries, Synthesis Approaches, and Efficient Flip-Flop Coding
+
+</div>
+
+<div align="center">
+ 
+[![RISC-V](https://img.shields.io/badge/RISC--V-SoC%20Tapeout-blue?style=for-the-badge&logo=riscv)](https://riscv.org/)
+[![VSD](https://img.shields.io/badge/VSD-Program-orange?style=for-the-badge)](https://vsdiat.vlsisystemdesign.com/)
+![Week](https://img.shields.io/badge/Week-1-green?style=for-the-badge)
 
 </div>
 
