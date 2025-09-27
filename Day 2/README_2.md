@@ -22,8 +22,10 @@ Designs can be synthesized in a hierarchical or flat manner. Hierarchical synthe
 - We generated individual netlist graphical representation for each module including all sub modules using commands such as hierarchy
 
   <img width="1366" height="768" alt="day2_heir1_part1" src="https://github.com/user-attachments/assets/72b2ce7e-f5ad-4dde-b559-c2b0ea5f8a2c" />
+  
 Sub module :
   <img width="662" height="699" alt="day2_heir_sub_module" src="https://github.com/user-attachments/assets/03100cec-b90d-464d-9f4c-6f101f1112a1" />
+
 
 Multiple module :
 <img width="1366" height="768" alt="day2_heir_part1" src="https://github.com/user-attachments/assets/da0ce7c5-1c15-43ef-b413-9319dd57392d" />
