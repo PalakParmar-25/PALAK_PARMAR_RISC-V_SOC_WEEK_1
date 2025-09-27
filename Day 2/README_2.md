@@ -21,13 +21,13 @@ Designs can be synthesized in a hierarchical or flat manner. Hierarchical synthe
 - Synthesised it using Yosys
 - We generated individual netlist graphical representation for each module including all sub modules using commands such as hierarchy
 
-  <img width="1366" height="768" alt="day2_heir1_part1" src="https://github.com/user-attachments/assets/72b2ce7e-f5ad-4dde-b559-c2b0ea5f8a2c" />
+<img width="1366" height="768" alt="day2_heir1_part1" src="https://github.com/user-attachments/assets/72b2ce7e-f5ad-4dde-b559-c2b0ea5f8a2c" />
   
-Sub module :
-  <img width="662" height="699" alt="day2_heir_sub_module" src="https://github.com/user-attachments/assets/03100cec-b90d-464d-9f4c-6f101f1112a1" />
+#### Sub module :
+<img width="662" height="699" alt="day2_heir_sub_module" src="https://github.com/user-attachments/assets/03100cec-b90d-464d-9f4c-6f101f1112a1" />
 
 
-Multiple module :
+#### Multiple module :
 <img width="1366" height="768" alt="day2_heir_part1" src="https://github.com/user-attachments/assets/da0ce7c5-1c15-43ef-b413-9319dd57392d" />
 
 - Same way we also flattened the multiple_module_opt and multiple_module_opt2 including code "flatten" during synthesis in Yosys 
@@ -41,11 +41,13 @@ Flip-flops are crucial elements in synchronous design, serving to store data bet
 - Synthesised it using Yosys
 - We generated individual netlist graphical representation for each design
 
-simulation :
-  <img width="1300" height="736" alt="DAY2_FLOP_asyncres_PART1" src="https://github.com/user-attachments/assets/596bf2cb-0335-4b51-8948-de88e2144ce6" />
+#### simulation :
 
-synthesis :
-  <img width="1300" height="736" alt="day2_show_asyncres_flop" src="https://github.com/user-attachments/assets/31705df8-74c7-407d-b40e-d86db4b32238" />
+<img width="1300" height="736" alt="DAY2_FLOP_asyncres_PART1" src="https://github.com/user-attachments/assets/596bf2cb-0335-4b51-8948-de88e2144ce6" />
+
+#### synthesis :
+
+<img width="1300" height="736" alt="day2_show_asyncres_flop" src="https://github.com/user-attachments/assets/31705df8-74c7-407d-b40e-d86db4b32238" />
 
 
 
