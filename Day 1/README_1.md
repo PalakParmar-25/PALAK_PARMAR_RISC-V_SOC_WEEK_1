@@ -71,6 +71,9 @@ Visualize the gate-level netlist
 ```
 show
 ```
+<img width="1366" height="768" alt="day1_yosys part1" src="https://github.com/user-attachments/assets/91720f68-90c2-4368-8078-d9f94663e2bc" />
+
+
 *We got error while running show so we first installed needed python packages :
 ```bash
 sudo apt-get install python3-distutils
