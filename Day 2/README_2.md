@@ -1,7 +1,9 @@
-# Week 1 : Day 2
+<div align="centre">
+
+  # Week 1 : Day 2
 # Timing Libraries, Synthesis Approaches, and Efficient Flip-Flop Coding
 
-## Overview :
+</div>
 
 ## Table of Content :
 1. Introduction to timing .libs
