@@ -12,13 +12,22 @@ On this first day, I was introduced to Verilog, a key hardware description langu
 4. Introduction to Yosys and Logic synthesis
 
 ### 1.Introduction to Verilog RTL design and Synthesis
-Begin by exploring the fundamental ideas behind digital circuits and systems. This forms the essential groundwork needed before diving into more advanced topics, making sure the guiding principles and real-world importance of digital design are clear at the very start.
+A digital simulator monitors signals (like wires or variables in your design) for any changes in their value. These signals can come from testbenches, clocks, or other parts of the design. When the simulator runs, it doesn't blindly recalculate everything at each time step—instead, it efficiently checks for events or transitions (such as a 0 → 1 or 1 → 0 change) on specific signals. Begin by exploring the fundamental ideas behind digital circuits and systems. This forms the essential groundwork needed before diving into more advanced topics, making sure the guiding principles and real-world importance of digital design are clear at the very start.
 
 ### 2. Introduction to open-source simulator iverilog
  Get started with Verilog, a powerful language used by engineers to describe digital systems. Through clear explanations and interactive exercises, you’ll learn how Verilog enables you to model circuits at the Register Transfer Level (RTL), bringing your design ideas to life on paper and in simulation.
+ 
+ In a typical digital simulation setup, only the design under test (DUT) has defined primary inputs and outputs, which reflect the real-world hardware interface.
+Testbench structure:
+-A testbench is a simulation-only wrapper or environment used to stimulate and observe the DUT.
+-It generates input signals (like clocks, resets, or data) and checks the outputs produced by the DUT.
+-However, the testbench itself doesn’t have I/O ports because it's not synthesizable hardware—it's just a script or module running in simulation.
 
 ### 3. Labs using iverilog and gtkwave
 Practice running your Verilog code with Icarus Verilog (iverilog), a widely used open-source simulator. This step lets you see your written logic in action, spot errors or unexpected behaviors, and gain practical confidence through direct experimentation.
+
+
+
 
 #### Compiling the RTL code and testbench code using iverilog
 ```bash
